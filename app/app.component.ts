@@ -1,7 +1,24 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
-  selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+    selector: 'app',
+    template: `
+        <nav>
+            <span>
+                <a [routerLink]=" ['./hero-input'] ">hero-child</a>
+            </span>
+        </nav>
+        
+        <main>
+            <router-outlet></router-outlet>
+        </main>
+    `,
+    styles: [`
+        nav {
+          margin-bottom: 10px;
+        }
+    `]
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent {
+    name = 'Angular';
+}
