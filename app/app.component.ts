@@ -11,6 +11,10 @@ import {Component} from '@angular/core';
             <span>
                 <a [routerLink]=" ['./name-setter'] ">name-setter</a>
             </span>
+            |
+            <span>
+                <a [routerLink]=" ['./version-change'] ">version-change</a>
+            </span>
         </nav>
         
         <main>
