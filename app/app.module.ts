@@ -6,12 +6,14 @@ import {AppComponent}  from './app.component';
 import {ROUTES} from "./app.routes";
 import {HeroInputModule} from "./hero-input/hero-input.module";
 import {IntroComponent} from "./intro/intro.component";
+import {NameSetterModule} from "./name-setter/name-setter.module";
 
 @NgModule({
     imports: [
         CommonModule,
         BrowserModule,
         HeroInputModule,
+        NameSetterModule,
         RouterModule.forRoot(ROUTES, {
             useHash: true,
             preloadingStrategy: PreloadAllModules

@@ -7,6 +7,10 @@ import {Component} from '@angular/core';
             <span>
                 <a [routerLink]=" ['./hero-input'] ">hero-child</a>
             </span>
+            |
+            <span>
+                <a [routerLink]=" ['./name-setter'] ">name-setter</a>
+            </span>
         </nav>
         
         <main>
