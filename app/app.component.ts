@@ -15,6 +15,10 @@ import {Component} from '@angular/core';
             <span>
                 <a [routerLink]=" ['./version-change'] ">version-change</a>
             </span>
+            |
+            <span>
+                <a [routerLink]=" ['./voter-event'] ">voter-event</a>
+            </span>
         </nav>
         
         <main>
