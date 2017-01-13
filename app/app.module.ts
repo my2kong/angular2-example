@@ -9,6 +9,7 @@ import {IntroComponent} from "./intro/intro.component";
 import {NameSetterModule} from "./name-setter/name-setter.module";
 import {VersionChangeModule} from "./version-change/version-change.module";
 import {VoterEventModule} from "./voter-event/voter-event.module";
+import {CountdownTimerModule} from "./countdown-timer/countdown-timer.module";
 
 @NgModule({
     imports: [
@@ -18,6 +19,7 @@ import {VoterEventModule} from "./voter-event/voter-event.module";
         NameSetterModule,
         VersionChangeModule,
         VoterEventModule,
+        CountdownTimerModule,
         RouterModule.forRoot(ROUTES, {
             useHash: true,
             preloadingStrategy: PreloadAllModules

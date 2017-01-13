@@ -19,6 +19,14 @@ import {Component} from '@angular/core';
             <span>
                 <a [routerLink]=" ['./voter-event'] ">voter-event</a>
             </span>
+            |
+            <span>
+                <a [routerLink]=" ['./countdown-timer-local'] ">countdown-timer-local</a>
+            </span>
+            |
+            <span>
+                <a [routerLink]=" ['./countdown-timer-viewchild'] ">countdown-timer-viewchild</a>
+            </span>
         </nav>
         
         <main>
