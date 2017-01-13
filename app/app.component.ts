@@ -27,6 +27,10 @@ import {Component} from '@angular/core';
             <span>
                 <a [routerLink]=" ['./countdown-timer-viewchild'] ">countdown-timer-viewchild</a>
             </span>
+            |
+            <span>
+                <a [routerLink]=" ['./mission-control'] ">mission-control</a>
+            </span>
         </nav>
         
         <main>
