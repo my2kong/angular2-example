@@ -24,7 +24,7 @@ import {CountdownTimerComponent} from "./countdown-timer.component";
 })
 export class CountdownViewChildParentComponent implements AfterViewInit {
     @ViewChild(CountdownTimerComponent)
-    private timerComponent: CountdownTimerComponent;
+    public timerComponent: CountdownTimerComponent;
 
     seconds() {
         return 0;

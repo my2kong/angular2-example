@@ -31,6 +31,10 @@ import {Component} from '@angular/core';
             <span>
                 <a [routerLink]=" ['./mission-control'] ">mission-control</a>
             </span>
+            |
+            <span>
+                <a [routerLink]=" ['./some'] ">some</a>
+            </span>
         </nav>
         
         <main>

@@ -9,6 +9,7 @@ import {VoteTakerComponent} from "./voter-event/vote-taker.component";
 import {CountdownLocalVarParentComponent} from "./countdown-timer/countdown-local-var-parent.component";
 import {CountdownViewChildParentComponent} from "./countdown-timer/countdown-view-child-parent.component";
 import {MissionControlComponent} from "./mission-control/mission-control.component";
+import {SomeParentComponent} from "./some/some-parent.component";
 
 export const ROUTES: Routes = [
     {path: '', component: IntroComponent},
@@ -19,4 +20,5 @@ export const ROUTES: Routes = [
     {path: 'countdown-timer-local', component: CountdownLocalVarParentComponent},
     {path: 'countdown-timer-viewchild', component: CountdownViewChildParentComponent},
     {path: 'mission-control', component: MissionControlComponent},
+    {path: 'some', component: SomeParentComponent}
 ];
